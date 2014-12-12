@@ -1,40 +1,38 @@
-# Extension Downloader
+# Symphony Extension of PHP Tweets
 
-Version: 1.0
+##Install
+go to extensions and install
 
-### An extension that makes it easy to download others extensions directly from the backend.
+## How to use
+you will be able to see a list of different options made available to you in the preferences
 
-### SPECS ###
-
-You can download extensions by specifying:
-
-- A custom zipball (https://github.com/DeuxHuitHuit/extension_downloader/zipball/master)
-- A specific github repo (DeuxHuitHuit/extension_downloader)
-- The extension handle (extension_downloader)
-- Keywords: will do a search on <http://symphonyextensions.com/>
-
-### REQUIREMENTS ###
-
-- Symphony CMS version 2.3 and up (as of the day of the last release of this extension)
-- You'll need to make sure PHP's Zip module is enabled (--enable-zip). 
-If you're on a shared server, your host would have had to do this when PHP was compiled.
-
-### INSTALLATION ###
-
-- `git clone` / download and unpack the tarball file
-- Put into the extension directory
-- Enable/install just like any other extension
-
-See <http://getsymphony.com/learn/tasks/view/install-an-extension/>
-
-*Voila !*
-
-Come say hi! -> <http://www.deuxhuithuit.com/>
-
-### HOW TO USE ###
-
-- Go to the extension page in the backend. You should see a new input field.
-
-### LICENSE ###
-
-MIT <http://deuxhuithuit.mit-license.org>
+### Preferences options:
+  - Username / Screenname Search
+    add a username or screenname you wish to search for e.g.. "@acsdt121" or "Andrew Davis" 
+  - Widget ID
+    You must first create a widget in your twitter account by going to https://twitter.com/settings/widgets (after you have singed in)
+  - Amount of tweets
+    amount of tweets you wish to display upto a max of 20
+  - Show Action Links (Reply, Retweet, Favourite)
+    adds three links to each of the actions
+  - Show Screenname only
+    allows you to change between viewing either the screenname or the username of each tweet
+  - Show Users Avatar
+    adds an avatar image of each tweeter
+  - Do you require the time to be added?
+    adds the time of when each tweet was published and the next option chnages the format of the time
+    e.g.. Posted on 22 Dec / 22 Dec
+  - Do you require the stats of each tweet?
+    displays the amount of tweets and or favourites the tweet has received e.g.. 1 Favourite, 2 Retweets
+  - Rearrange the order of the contents of the tweets DOM structure
+    author, contents,tweet-actions,time
+    e.g.. 
+     <ul class="tweets">
+       <li>  
+          <div class="section author"></div>
+          <div class="section time"></div>
+          <div class="section contents"></div>
+          <div class="section tweet-actions"></div>
+      </li>
+    </ul>
+      
