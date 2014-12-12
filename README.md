@@ -37,7 +37,7 @@ you will be able to see a list of different options made available to you in the
     <div class="section tweet-actions"></div>
     </li>
     </ul>
-
+````
 This extension uses php namespacing and initialise the tweets in the template you must use 
 ````
 <xsl:value-of select="php:function('gettweets','')" disable-output-escaping="yes"/>
