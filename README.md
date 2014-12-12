@@ -28,12 +28,12 @@ you will be able to see a list of different options made available to you in the
     author, contents,tweet-actions,time
 
 
-    ````<ul class="tweets">
-    ````<li>  
-    ````<div class="section author"></div>
-    ```` <div class="section time"></div>
-    ```` <div class="section contents"></div>
-    ```` <div class="section tweet-actions"></div>
-    ```` </li>
-    ```` </ul>
+    <ul class="tweets">
+    <li>  
+    <div class="section author"></div>
+    <div class="section time"></div>
+    <div class="section contents"></div>
+    <div class="section tweet-actions"></div>
+    </li>
+    </ul>
       
