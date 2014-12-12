@@ -26,13 +26,13 @@ you will be able to see a list of different options made available to you in the
     displays the amount of tweets and or favourites the tweet has received e.g.. 1 Favourite, 2 Retweets
   - Rearrange the order of the contents of the tweets DOM structure
     author, contents,tweet-actions,time
-    e.g.. 
-     ````<ul class="tweets">
-       ````<li>  
-          ````<div class="section author"></div>
-         ```` <div class="section time"></div>
-         ```` <div class="section contents"></div>
-         ```` <div class="section tweet-actions"></div>
-     ```` </li>
-   ```` </ul>
+````e.g.. 
+````<ul class="tweets">
+````<li>  
+````<div class="section author"></div>
+```` <div class="section time"></div>
+```` <div class="section contents"></div>
+```` <div class="section tweet-actions"></div>
+```` </li>
+```` </ul>
       
