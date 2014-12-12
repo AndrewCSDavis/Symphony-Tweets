@@ -27,7 +27,7 @@ you will be able to see a list of different options made available to you in the
   - Rearrange the order of the contents of the tweets DOM structure
     author, contents,tweet-actions,time
 
-
+```
     <ul class="tweets">
     <li>  
     <div class="section author"></div>
@@ -36,4 +36,4 @@ you will be able to see a list of different options made available to you in the
     <div class="section tweet-actions"></div>
     </li>
     </ul>
-      
+      ````
