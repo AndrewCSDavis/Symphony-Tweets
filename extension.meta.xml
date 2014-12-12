@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="twitter_feed" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Twitter Feed</name>
+	<description>
+		Grabs upto date tweets from twitter to be placed into container
+	</description>
+	<repo type="github">https://github.com/DeuxHuitHuit/extension_downloader</repo>	
+	<types>
+		<type>Feed</type>
+		<type>Tweets</type>		
+	</types>
+	<authors>
+		<author>
+			<name github="trigger121" twitter="acsdt121">Andrew Davis</name>			
+		</author>
+	</authors>
+	<dependencies>
+		<!-- None -->
+	</dependencies>
+	<releases>
+		<release version="1.0" date="2014-03-25" min="2.3">
+			- First release
+		</release>
+	</releases>
+</extension>
